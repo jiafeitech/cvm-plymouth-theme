@@ -1,8 +1,3 @@
-*
-
-!assets/**
-!bgrt-cvm/**
-!cvm-spinner/**
-!cleanup.sh
-!PKGBUILD
-!.gitignore
+src
+pkg
+*.zst
