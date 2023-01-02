@@ -1,18 +1,47 @@
 Source: plymouth-theme-cvm-ui-desktop
-Section: x11
+Section: utils
 Priority: optional
 Maintainer: jiafeitech
-Build-Depends: debhelper (>= 10.5.1)
-Standards-Version: 4.5.0
+Build-Depends: debhelper (>= 11),
+Build-Depends-Indep: meson (>= 0.61),
+Homepage: https://github.com/jiafeitech/cvm-plymouth-theme/
+Vcs-Browser: https://github.com/jiafeitech/cvm-plymouth-theme
+Vcs-Git: https://github.com/jiafeitech/cvm-plymouth-theme.git
+Rules-Requires-Root: no
 
 Package: plymouth-theme-cvm-ui-desktop
 Architecture: all
-Depends: ${misc:Depends}, plymouth, plymouth-label, plymouth-theme-spinner
-Provides: plymouth-theme
-Replaces: plymouth (<< 0.8.1-1~)
-Description: graphical boot animation and logger
-  Plymouth is an application that runs very early in the boot process
-  (even before the root filesystem is mounted!) that provides a graphical
-  boot animation while the boot process happens in the background.
-  .
-  This package contains the Cvm UI Desktop splash theme for Plymouth.
+Depends: plymouth-theme-cvm-ui-desktop-bgrt,
+         plymouth-theme-cvm-ui-desktop-text
+Description: Official Cvm UI Desktop Plymouth (metapackage)
+ This package contains the official Cvm UI Desktop Plymouth theme.
+ .
+ This package is a metapackage, it depends on the bgrt, logo and text packages.
+
+Package: plymouth-theme-cvm-ui-desktop-bgrt
+Architecture: all
+Depends: plymouth,
+         plymouth-label,
+         ${misc:Depends},
+Provides: plymouth-theme,
+Breaks: plymouth (<< 0.9.2-3ubuntu1~),
+Description: Official Cvm UI Desktop Plymouth (bgrt)
+
+Package: plymouth-theme-cvm-ui-desktop-logo
+Architecture: all
+Depends: plymouth,
+         plymouth-label,
+         gettext,
+         ${misc:Depends},
+Provides: plymouth-theme,
+Breaks: plymouth (<< 0.9.2-3ubuntu1~),
+Description: Official Cvm UI Desktop Plymouth (logo)
+
+Package: plymouth-theme-cvm-ui-desktop-text
+Architecture: all
+Depends: plymouth,
+         plymouth-theme-ubuntu-text,
+         ${misc:Depends},
+Provides: plymouth-theme,
+Breaks: plymouth (<< 0.9.2-3ubuntu1~),
+Description: Official Cvm UI Desktop Plymouth (text)

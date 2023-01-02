@@ -1,0 +1,10 @@
+if background_color 24,24,24; then
+  clear
+fi
+
+color_normal=light-gray/black
+
+if [ -e ${prefix}/themes/cvm-ui-desktop/theme.txt ]; then
+  insmod png
+  theme=${prefix}/themes/cvm-ui-desktop/theme.txt
+fi

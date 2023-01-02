@@ -1,4 +1,10 @@
 #!/usr/bin/make -f
+#export DH_VERBOSE = 1
 
 %:
-	dh $@
+	dh $@ --buildsystem=meson
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		-Dcvm-ui-desktop-logo=true \
+		-Dcvm-ui-desktop-text=true

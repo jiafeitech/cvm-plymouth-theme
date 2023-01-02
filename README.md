@@ -1,3 +1,5 @@
-# cvm-plymouth-theme
+# Cvm UI Desktop OS Plymouth
 
-Cvm UI Desktop Plymouth theme
+This package contains bgrt, logo and text variants.
+
+Based on the Vanilla OS Plymouth theme.

@@ -1,0 +1,3 @@
+# List of source files which contain translatable strings.
+
+src/cvm-ui-desktop-bgrt/cvm-ui-desktop-bgrt.plymouth.desktop

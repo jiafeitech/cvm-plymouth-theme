@@ -1,12 +1,12 @@
 [Plymouth Theme]
-Name=BGRT-cvm
-Description=Jimmac's spinner theme using the ACPI BGRT graphics as background. Made for Cvm UI Desktop!
+Name=Cvm UI Desktop BGRT
+Description=Cvm UI Desktop OS spinner theme using the ACPI BGRT graphics as background
 ModuleName=two-step
 
 [two-step]
-Font=Cantarell 12
-TitleFont=Cantarell Light 30
-ImageDir=/usr/share/plymouth/themes/cvm-spinner
+Font=Cantarell 13
+TitleFont=Cantarell Bold 30
+ImageDir=@PLYMOUTH_THEME_PATH@/cvm-ui-desktop-bgrt
 DialogHorizontalAlignment=.5
 DialogVerticalAlignment=.382
 TitleHorizontalAlignment=.5
@@ -20,7 +20,7 @@ TransitionDuration=0.0
 BackgroundStartColor=0x000000
 BackgroundEndColor=0x000000
 ProgressBarBackgroundColor=0x606060
-ProgressBarForegroundColor=0xffffff
+ProgressBarForegroundColor=0xFBBD4E
 DialogClearsFirmwareBackground=true
 MessageBelowAnimation=true
 
@@ -30,29 +30,31 @@ UseFirmwareBackground=true
 
 [shutdown]
 UseEndAnimation=false
-UseFirmwareBackground=true
+UseFirmwareBackground=false
+Title=Powering off
 
 [reboot]
 UseEndAnimation=false
-UseFirmwareBackground=true
+UseFirmwareBackground=false
+Title=Restarting
 
 [updates]
 SuppressMessages=true
 ProgressBarShowPercentComplete=true
 UseProgressBar=true
-Title=Installing Updates...
+Title=Installing Updates
 SubTitle=Do not turn off your computer
 
 [system-upgrade]
 SuppressMessages=true
 ProgressBarShowPercentComplete=true
 UseProgressBar=true
-Title=Upgrading System...
+Title=Upgrading System
 SubTitle=Do not turn off your computer
 
 [firmware-upgrade]
 SuppressMessages=true
 ProgressBarShowPercentComplete=true
 UseProgressBar=true
-Title=Upgrading Firmware...
+Title=Upgrading Firmware
 SubTitle=Do not turn off your computer

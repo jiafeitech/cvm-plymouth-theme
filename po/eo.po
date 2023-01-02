@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plymouth-theme-cvm-ui-desktop master\n"
+"Report-Msgid-Bugs-To: https://github.com/jiafeitech/cvm-plymouth-theme/"
+"issues\n"
+"master/eo/>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+
+#: src/cvm-ui-desktop-bgrt/cvm-ui-desktop-bgrt.plymouth.desktop:34
+msgid "Powering Off"
+msgstr "Malŝalti"
+
+#: src/cvm-ui-desktop-bgrt/cvm-ui-desktop-bgrt.plymouth.desktop:39
+msgid "Restarting"
+msgstr "Restartigi"
+
+#: src/cvm-ui-desktop-bgrt/cvm-ui-desktop-bgrt.plymouth.desktop:45
+msgid "Installing Updates"
+msgstr "Instalante ĝisdatigojn"
+
+#: src/cvm-ui-desktop-bgrt/cvm-ui-desktop-bgrt.plymouth.desktop:46
+#: src/cvm-ui-desktop-bgrt/cvm-ui-desktop-bgrt.plymouth.desktop:53
+#: src/cvm-ui-desktop-bgrt/cvm-ui-desktop-bgrt.plymouth.desktop:60
+msgid "Do not turn off your computer"
+msgstr "Ne malŝaltu vian komputilon"
+
+#: src/cvm-ui-desktop-bgrt/cvm-ui-desktop-bgrt.plymouth.desktop:52
+msgid "Upgrading System"
+msgstr "Altgradigante sistemon"
+
+#: src/cvm-ui-desktop-bgrt/cvm-ui-desktop-bgrt.plymouth.desktop:59
+msgid "Upgrading Firmware"
+msgstr "Altgradigante mikroprogramaron..."
