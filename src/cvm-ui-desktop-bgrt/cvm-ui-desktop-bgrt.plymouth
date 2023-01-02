@@ -25,16 +25,17 @@ DialogClearsFirmwareBackground=true
 MessageBelowAnimation=true
 
 [boot-up]
+UseProgressBar=true
 UseEndAnimation=true
 UseFirmwareBackground=true
 
 [shutdown]
-UseEndAnimation=false
+UseEndAnimation=true
 UseFirmwareBackground=false
 Title=Goodbye Beetch
 
 [reboot]
-UseEndAnimation=false
+UseEndAnimation=true
 UseFirmwareBackground=false
 Title=See you again beetch
 
