@@ -3,4 +3,4 @@
 ###################
 
 [org.gnome.login-screen]
-logo='/usr/share/plymouth/themes/cvm-ui-desktop-bgrt/bgrt-fallback.png'
+logo='/usr/share/plymouth/themes/cvm-ui-desktop-bgrt/watermark.png'

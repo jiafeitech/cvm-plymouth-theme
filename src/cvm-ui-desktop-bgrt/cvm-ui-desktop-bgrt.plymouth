@@ -4,8 +4,8 @@ Description=Cvm UI Desktop OS spinner theme using the ACPI BGRT graphics as back
 ModuleName=two-step
 
 [two-step]
-Font=Cantarell 13
-TitleFont=Cantarell Bold 30
+Font=Cantarell 12
+TitleFont=Cantarell Light 30
 ImageDir=@PLYMOUTH_THEME_PATH@/cvm-ui-desktop-bgrt
 DialogHorizontalAlignment=.5
 DialogVerticalAlignment=.382
@@ -20,41 +20,41 @@ TransitionDuration=0.0
 BackgroundStartColor=0x000000
 BackgroundEndColor=0x000000
 ProgressBarBackgroundColor=0x606060
-ProgressBarForegroundColor=0xFBBD4E
+ProgressBarForegroundColor=0xffffff
 DialogClearsFirmwareBackground=true
 MessageBelowAnimation=true
 
 [boot-up]
-UseEndAnimation=false
+UseEndAnimation=true
 UseFirmwareBackground=true
 
 [shutdown]
 UseEndAnimation=false
 UseFirmwareBackground=false
-Title=Powering off
+Title=Goodbye Beetch
 
 [reboot]
 UseEndAnimation=false
 UseFirmwareBackground=false
-Title=Restarting
+Title=See you again beetch
 
 [updates]
 SuppressMessages=true
 ProgressBarShowPercentComplete=true
 UseProgressBar=true
 Title=Installing Updates
-SubTitle=Do not turn off your computer
+SubTitle=Do not turn off your product
 
 [system-upgrade]
 SuppressMessages=true
 ProgressBarShowPercentComplete=true
 UseProgressBar=true
 Title=Upgrading System
-SubTitle=Do not turn off your computer
+SubTitle=Do not turn off your product
 
 [firmware-upgrade]
 SuppressMessages=true
 ProgressBarShowPercentComplete=true
 UseProgressBar=true
 Title=Upgrading Firmware
-SubTitle=Do not turn off your computer
+SubTitle=Do not turn off your product

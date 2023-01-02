@@ -4,9 +4,6 @@ project('plymouth-theme-cvm-ui-desktop',
   license : 'MIT',
   default_options: ['prefix=/usr']
 )
-       
-# Modules
-i18n = import('i18n')
 
 # Path variables
 plymouth_theme_path = get_option('prefix') / get_option('datadir') / 'plymouth' / 'themes'
@@ -16,5 +13,4 @@ conf = configuration_data()
 conf.set_quoted('PLYMOUTH_THEME_PATH', plymouth_theme_path)
 
 # Subdirectories
-subdir('po')
 subdir('src')
