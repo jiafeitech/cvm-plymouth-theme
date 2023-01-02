@@ -1,0 +1,12 @@
+*
+
+!source
+!.gitignore
+!changelog
+!compat
+!control
+!install
+!postinst
+!postrm
+!prerm
+!rules
